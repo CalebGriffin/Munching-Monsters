@@ -1,7 +1,673 @@
 fileFormatVersion: 2
 guid: af51202c50fcc4c59845feec94071c2d
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 3462462973317738536
+    second: hijabi-brown_0
+  - first:
+      213: -4690554953072404237
+    second: hijabi-brown_1
+  - first:
+      213: 3828999251887185711
+    second: hijabi-brown_2
+  - first:
+      213: -2049339574123198761
+    second: hijabi-brown_3
+  - first:
+      213: -3174388745411840978
+    second: hijabi-brown_4
+  - first:
+      213: -1873422545259410187
+    second: hijabi-brown_5
+  - first:
+      213: 8844168717694326525
+    second: hijabi-brown_6
+  - first:
+      213: -8359069842561952440
+    second: hijabi-brown_7
+  - first:
+      213: 6168106665161886449
+    second: hijabi-brown_8
+  - first:
+      213: 3252523722216592251
+    second: hijabi-brown_9
+  - first:
+      213: -2808398811250115180
+    second: hijabi-brown_10
+  - first:
+      213: 8473270150535918834
+    second: hijabi-brown_11
+  - first:
+      213: -2227140863302598606
+    second: hijabi-brown_12
+  - first:
+      213: -4038737031581994062
+    second: hijabi-brown_13
+  - first:
+      213: 4602269065614577091
+    second: hijabi-brown_14
+  - first:
+      213: 4116140670728369629
+    second: hijabi-brown_15
+  - first:
+      213: -3192261137109531753
+    second: hijabi-brown_16
+  - first:
+      213: 3714702796088396624
+    second: hijabi-brown_17
+  - first:
+      213: 8153156150897884115
+    second: hijabi-brown_18
+  - first:
+      213: 4634455553012610482
+    second: hijabi-brown_19
+  - first:
+      213: 1893654349825320087
+    second: hijabi-brown_20
+  - first:
+      213: 5413936910848181354
+    second: hijabi-brown_21
+  - first:
+      213: 8320851225777218231
+    second: hijabi-brown_22
+  - first:
+      213: 8657451169903923033
+    second: hijabi-brown_23
+  - first:
+      213: -8535397360385677966
+    second: hijabi-brown_24
+  - first:
+      213: 8662199427566002831
+    second: hijabi-brown_25
+  - first:
+      213: -14933377578277869
+    second: hijabi-brown_26
+  - first:
+      213: -7392653456309818458
+    second: hijabi-brown_27
+  - first:
+      213: 5911083079728310521
+    second: hijabi-brown_28
+  - first:
+      213: 2876480413481059907
+    second: hijabi-brown_29
+  - first:
+      213: -4483142140379905188
+    second: hijabi-brown_30
+  - first:
+      213: 3535389866554967774
+    second: hijabi-brown_31
+  - first:
+      213: 8028860894191856623
+    second: hijabi-brown_32
+  - first:
+      213: -7733463408954601118
+    second: hijabi-brown_33
+  - first:
+      213: 3153071357475474948
+    second: hijabi-brown_34
+  - first:
+      213: -8627729550631452645
+    second: hijabi-brown_35
+  - first:
+      213: 9001032435716245369
+    second: hijabi-brown_36
+  - first:
+      213: 3765133633451896583
+    second: hijabi-brown_37
+  - first:
+      213: -7250877703701688252
+    second: hijabi-brown_38
+  - first:
+      213: 2737155184715727499
+    second: hijabi-brown_39
+  - first:
+      213: 6560554153576083533
+    second: hijabi-brown_40
+  - first:
+      213: 4205968676060518708
+    second: hijabi-brown_41
+  - first:
+      213: 3264416058073302671
+    second: hijabi-brown_42
+  - first:
+      213: 1280066929428424227
+    second: hijabi-brown_43
+  - first:
+      213: -7259288030113479171
+    second: hijabi-brown_44
+  - first:
+      213: 4207592996367034628
+    second: hijabi-brown_45
+  - first:
+      213: 677395449059151761
+    second: hijabi-brown_46
+  - first:
+      213: -849742187443136704
+    second: hijabi-brown_47
+  - first:
+      213: 6749287085718522607
+    second: hijabi-brown_48
+  - first:
+      213: -802317323441423694
+    second: hijabi-brown_49
+  - first:
+      213: 5155908913501515730
+    second: hijabi-brown_50
+  - first:
+      213: 4826831894092432059
+    second: hijabi-brown_51
+  - first:
+      213: 8817416700056374808
+    second: hijabi-brown_52
+  - first:
+      213: 8108812264315548245
+    second: hijabi-brown_53
+  - first:
+      213: -1126445664017031090
+    second: hijabi-brown_54
+  - first:
+      213: 1207205571707581541
+    second: hijabi-brown_55
+  - first:
+      213: -8735547357932428603
+    second: hijabi-brown_56
+  - first:
+      213: -4497448227018703447
+    second: hijabi-brown_57
+  - first:
+      213: 3516753763274970498
+    second: hijabi-brown_58
+  - first:
+      213: -7420425679795782615
+    second: hijabi-brown_59
+  - first:
+      213: -8528743875000557042
+    second: hijabi-brown_60
+  - first:
+      213: 2194329142889440444
+    second: hijabi-brown_61
+  - first:
+      213: 3917471722827660269
+    second: hijabi-brown_62
+  - first:
+      213: 6718670571750522411
+    second: hijabi-brown_63
+  - first:
+      213: 2556044929315551020
+    second: hijabi-brown_64
+  - first:
+      213: 3829020435795018638
+    second: hijabi-brown_65
+  - first:
+      213: 5942771408593553850
+    second: hijabi-brown_66
+  - first:
+      213: 264211391139649040
+    second: hijabi-brown_67
+  - first:
+      213: 6500135389838361763
+    second: hijabi-brown_68
+  - first:
+      213: 748499864076088162
+    second: hijabi-brown_69
+  - first:
+      213: -2913022666899951651
+    second: hijabi-brown_70
+  - first:
+      213: 3980983672969224320
+    second: hijabi-brown_71
+  - first:
+      213: -5075486525049379372
+    second: hijabi-brown_72
+  - first:
+      213: -3924403177566304916
+    second: hijabi-brown_73
+  - first:
+      213: -5373803098708798261
+    second: hijabi-brown_74
+  - first:
+      213: -5992315507455056033
+    second: hijabi-brown_75
+  - first:
+      213: -9207468278474441436
+    second: hijabi-brown_76
+  - first:
+      213: -5999094708724258598
+    second: hijabi-brown_77
+  - first:
+      213: 3837999238707120561
+    second: hijabi-brown_78
+  - first:
+      213: -8455919793076616047
+    second: hijabi-brown_79
+  - first:
+      213: -7463120762709062079
+    second: hijabi-brown_80
+  - first:
+      213: -6270787827533110020
+    second: hijabi-brown_81
+  - first:
+      213: -4956574341986207071
+    second: hijabi-brown_82
+  - first:
+      213: 1989964446383753133
+    second: hijabi-brown_83
+  - first:
+      213: -7820710991439183771
+    second: hijabi-brown_84
+  - first:
+      213: -2565105499310216790
+    second: hijabi-brown_85
+  - first:
+      213: -3501881522238632387
+    second: hijabi-brown_86
+  - first:
+      213: -4608762564261017121
+    second: hijabi-brown_87
+  - first:
+      213: -5841530671614394815
+    second: hijabi-brown_88
+  - first:
+      213: 4320973765359521439
+    second: hijabi-brown_89
+  - first:
+      213: -196999033106947741
+    second: hijabi-brown_90
+  - first:
+      213: -6684530876635342830
+    second: hijabi-brown_91
+  - first:
+      213: 7709742897350102873
+    second: hijabi-brown_92
+  - first:
+      213: -7471621506681510302
+    second: hijabi-brown_93
+  - first:
+      213: 4561359912167724648
+    second: hijabi-brown_94
+  - first:
+      213: -179533733022670915
+    second: hijabi-brown_95
+  - first:
+      213: 539795120331790740
+    second: hijabi-brown_96
+  - first:
+      213: -8037943731648585774
+    second: hijabi-brown_97
+  - first:
+      213: -2581328061219041795
+    second: hijabi-brown_98
+  - first:
+      213: -2639955980085931325
+    second: hijabi-brown_99
+  - first:
+      213: 1687113166607602024
+    second: hijabi-brown_100
+  - first:
+      213: -1786255515146689642
+    second: hijabi-brown_101
+  - first:
+      213: 7556119839051462694
+    second: hijabi-brown_102
+  - first:
+      213: 495178286573776118
+    second: hijabi-brown_103
+  - first:
+      213: -6439825199699964366
+    second: hijabi-brown_104
+  - first:
+      213: 740775360492305121
+    second: hijabi-brown_105
+  - first:
+      213: 5910752666119073824
+    second: hijabi-brown_106
+  - first:
+      213: 1661537204961593192
+    second: hijabi-brown_107
+  - first:
+      213: 3435457958627014199
+    second: hijabi-brown_108
+  - first:
+      213: 9025006279669777600
+    second: hijabi-brown_109
+  - first:
+      213: -3252002455401090033
+    second: hijabi-brown_110
+  - first:
+      213: -2603268650177573290
+    second: hijabi-brown_111
+  - first:
+      213: 4239502562369316873
+    second: hijabi-brown_112
+  - first:
+      213: -2579417883985135199
+    second: hijabi-brown_113
+  - first:
+      213: 6742583660769779193
+    second: hijabi-brown_114
+  - first:
+      213: -8253484505002538935
+    second: hijabi-brown_115
+  - first:
+      213: 4844774877763785152
+    second: hijabi-brown_116
+  - first:
+      213: 4645118096551485585
+    second: hijabi-brown_117
+  - first:
+      213: 472320560274670692
+    second: hijabi-brown_118
+  - first:
+      213: 7978615989304725717
+    second: hijabi-brown_119
+  - first:
+      213: 1850899960457925887
+    second: hijabi-brown_120
+  - first:
+      213: -9000582309827001157
+    second: hijabi-brown_121
+  - first:
+      213: 7660572897343881828
+    second: hijabi-brown_122
+  - first:
+      213: -1419280144499099890
+    second: hijabi-brown_123
+  - first:
+      213: 8813497740970578226
+    second: hijabi-brown_124
+  - first:
+      213: 3049718059996460378
+    second: hijabi-brown_125
+  - first:
+      213: -5513036366180869660
+    second: hijabi-brown_126
+  - first:
+      213: 8054581800590857233
+    second: hijabi-brown_127
+  - first:
+      213: 8252928054468178576
+    second: hijabi-brown_128
+  - first:
+      213: 4396496859838157587
+    second: hijabi-brown_129
+  - first:
+      213: 8584504224471176880
+    second: hijabi-brown_130
+  - first:
+      213: 7574606853155341946
+    second: hijabi-brown_131
+  - first:
+      213: 9095030470689766740
+    second: hijabi-brown_132
+  - first:
+      213: 629678932631133262
+    second: hijabi-brown_133
+  - first:
+      213: 8108649624194280035
+    second: hijabi-brown_134
+  - first:
+      213: -1860791924894783121
+    second: hijabi-brown_135
+  - first:
+      213: 2631553085618191457
+    second: hijabi-brown_136
+  - first:
+      213: -7889752627333412463
+    second: hijabi-brown_137
+  - first:
+      213: 2301753264935179144
+    second: hijabi-brown_138
+  - first:
+      213: 6578526597304464322
+    second: hijabi-brown_139
+  - first:
+      213: 3314027516549009783
+    second: hijabi-brown_140
+  - first:
+      213: -21324408608471504
+    second: hijabi-brown_141
+  - first:
+      213: -441490845566234197
+    second: hijabi-brown_142
+  - first:
+      213: -1990789382402405188
+    second: hijabi-brown_143
+  - first:
+      213: 217398628859135516
+    second: hijabi-brown_144
+  - first:
+      213: 6648270346327320627
+    second: hijabi-brown_145
+  - first:
+      213: -249717637784124619
+    second: hijabi-brown_146
+  - first:
+      213: 5053701369006226887
+    second: hijabi-brown_147
+  - first:
+      213: -5452338432441157760
+    second: hijabi-brown_148
+  - first:
+      213: -5070677235277917558
+    second: hijabi-brown_149
+  - first:
+      213: -1069798370538870282
+    second: hijabi-brown_150
+  - first:
+      213: 3014325445256851064
+    second: hijabi-brown_151
+  - first:
+      213: 4239536290848524621
+    second: hijabi-brown_152
+  - first:
+      213: -8999014384028597903
+    second: hijabi-brown_153
+  - first:
+      213: 3412669992874342090
+    second: hijabi-brown_154
+  - first:
+      213: -7076818048765203813
+    second: hijabi-brown_155
+  - first:
+      213: 8018707766338823435
+    second: hijabi-brown_156
+  - first:
+      213: -5467237962754238672
+    second: hijabi-brown_157
+  - first:
+      213: 6184104956665930053
+    second: hijabi-brown_158
+  - first:
+      213: -5318872299771182582
+    second: hijabi-brown_159
+  - first:
+      213: -7416829883136422625
+    second: hijabi-brown_160
+  - first:
+      213: 5226830795353387979
+    second: hijabi-brown_161
+  - first:
+      213: 706069451421069361
+    second: hijabi-brown_162
+  - first:
+      213: 8419574752185996592
+    second: hijabi-brown_163
+  - first:
+      213: -6300822178020573926
+    second: hijabi-brown_164
+  - first:
+      213: 8634431493647568181
+    second: hijabi-brown_165
+  - first:
+      213: 6560829523295778709
+    second: hijabi-brown_166
+  - first:
+      213: -7113178939194953117
+    second: hijabi-brown_167
+  - first:
+      213: 2774646697140193769
+    second: hijabi-brown_168
+  - first:
+      213: -8229766115045542411
+    second: hijabi-brown_169
+  - first:
+      213: 2640551462200538084
+    second: hijabi-brown_170
+  - first:
+      213: -2745897542368564067
+    second: hijabi-brown_171
+  - first:
+      213: -2865639941886218471
+    second: hijabi-brown_172
+  - first:
+      213: 6831635259028784691
+    second: hijabi-brown_173
+  - first:
+      213: 3060131507954667302
+    second: hijabi-brown_174
+  - first:
+      213: -5619403319604888878
+    second: hijabi-brown_175
+  - first:
+      213: 4824271273934993547
+    second: hijabi-brown_176
+  - first:
+      213: -5719768664528173570
+    second: hijabi-brown_177
+  - first:
+      213: 4427558822284776310
+    second: hijabi-brown_178
+  - first:
+      213: 78201260876779027
+    second: hijabi-brown_179
+  - first:
+      213: -6850555583286661261
+    second: hijabi-brown_180
+  - first:
+      213: 5499060159506284426
+    second: hijabi-brown_181
+  - first:
+      213: -2129797093117810979
+    second: hijabi-brown_182
+  - first:
+      213: 2383978304702473115
+    second: hijabi-brown_183
+  - first:
+      213: 8123588209692458283
+    second: hijabi-brown_184
+  - first:
+      213: 2359489364008262783
+    second: hijabi-brown_185
+  - first:
+      213: 425922838460924363
+    second: hijabi-brown_186
+  - first:
+      213: -5487547571001042457
+    second: hijabi-brown_187
+  - first:
+      213: -4238757092925679434
+    second: hijabi-brown_188
+  - first:
+      213: -1862898421153394837
+    second: hijabi-brown_189
+  - first:
+      213: 6281439924240449519
+    second: hijabi-brown_190
+  - first:
+      213: -2342555086623156747
+    second: hijabi-brown_191
+  - first:
+      213: -6008528212182877935
+    second: hijabi-brown_192
+  - first:
+      213: 5343370192223491571
+    second: hijabi-brown_193
+  - first:
+      213: -3887806402556305828
+    second: hijabi-brown_194
+  - first:
+      213: -7967539754782289190
+    second: hijabi-brown_195
+  - first:
+      213: -6946673098766275279
+    second: hijabi-brown_196
+  - first:
+      213: 2086612873612165952
+    second: hijabi-brown_197
+  - first:
+      213: -9129581310446183131
+    second: hijabi-brown_198
+  - first:
+      213: 7242637621250217686
+    second: hijabi-brown_199
+  - first:
+      213: 1041862282634155577
+    second: hijabi-brown_200
+  - first:
+      213: 8124265005690591931
+    second: hijabi-brown_201
+  - first:
+      213: -8795754576361127590
+    second: hijabi-brown_202
+  - first:
+      213: 1425924597743658473
+    second: hijabi-brown_203
+  - first:
+      213: 2376435909062829861
+    second: hijabi-brown_204
+  - first:
+      213: 4208671152436118244
+    second: hijabi-brown_205
+  - first:
+      213: -9196092625561970534
+    second: hijabi-brown_206
+  - first:
+      213: 8724654476437844488
+    second: hijabi-brown_207
+  - first:
+      213: -8885420761779498581
+    second: hijabi-brown_208
+  - first:
+      213: -1170465984941178775
+    second: hijabi-brown_209
+  - first:
+      213: 538812476874854347
+    second: hijabi-brown_210
+  - first:
+      213: 5316365851274318741
+    second: hijabi-brown_211
+  - first:
+      213: 8691045034917718512
+    second: hijabi-brown_212
+  - first:
+      213: 8621763901191235380
+    second: hijabi-brown_213
+  - first:
+      213: 4365114128035198247
+    second: hijabi-brown_214
+  - first:
+      213: -3293656906975096478
+    second: hijabi-brown_215
+  - first:
+      213: 5170258028528431874
+    second: hijabi-brown_216
+  - first:
+      213: 1081793718088209105
+    second: hijabi-brown_217
+  - first:
+      213: 6521962710347817644
+    second: hijabi-brown_218
+  - first:
+      213: -3563862500075577757
+    second: hijabi-brown_219
+  - first:
+      213: -9144717933229017596
+    second: hijabi-brown_220
+  - first:
+      213: -6292787786882612674
+    second: hijabi-brown_221
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -31,7 +697,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -40,7 +706,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -64,7 +730,67 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -73,7 +799,343 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: hijabi-brown_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 820fb84bab32d0030800000000000000
+      internalID: 3462462973317738536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hijabi-brown_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 384
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f89bae2f1dc7eeb0800000000000000
+      internalID: -4690554953072404237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hijabi-brown_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2fd8fd5886532530800000000000000
+      internalID: 3828999251887185711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hijabi-brown_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d68c34e3884f83e0800000000000000
+      internalID: -2049339574123198761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hijabi-brown_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e24bab2314e42f3d0800000000000000
+      internalID: -3174388745411840978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hijabi-brown_5
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fcca93fe144006e0800000000000000
+      internalID: -1873422545259410187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hijabi-brown_6
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df6dacf179cccba70800000000000000
+      internalID: 8844168717694326525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hijabi-brown_7
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8451a65344e9efb80800000000000000
+      internalID: -8359069842561952440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hijabi-brown_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fa81b9f454899550800000000000000
+      internalID: 6168106665161886449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hijabi-brown_9
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b73504eb719432d20800000000000000
+      internalID: 3252523722216592251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hijabi-brown_10
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49dbec329209609d0800000000000000
+      internalID: -2808398811250115180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hijabi-brown_11
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f43d900f4a179570800000000000000
+      internalID: 8473270150535918834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hijabi-brown_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 230871a4f2b9711e0800000000000000
+      internalID: -2227140863302598606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hijabi-brown_13
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b3f653611683f7c0800000000000000
+      internalID: -4038737031581994062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hijabi-brown_14
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cdc9b0d45b8edf30800000000000000
+      internalID: 4602269065614577091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hijabi-brown_15
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd57d4cb1287f1930800000000000000
+      internalID: 4116140670728369629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
