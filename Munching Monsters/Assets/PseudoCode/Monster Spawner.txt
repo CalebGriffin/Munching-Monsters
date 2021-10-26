@@ -1,0 +1,6 @@
+Monster Spawner
+
+Before the first frame:
+Get all objects with the 'monster' tag
+Add them to an array
+Set them all to not active
