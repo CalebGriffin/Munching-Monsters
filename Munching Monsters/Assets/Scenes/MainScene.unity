@@ -138,7 +138,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!95 &93790372
 Animator:
   serializedVersion: 3
@@ -2606,6 +2606,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1224130663}
+  - component: {fileID: 1224130664}
   m_Layer: 0
   m_Name: Bird Manager
   m_TagString: Untagged
@@ -2629,6 +2630,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1224130664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1224130662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e85f1c38bc37cde4d895ba2e09c10724, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bird: {fileID: 1882231457}
+  birdWithCookie: {fileID: 1979203499}
 --- !u!1 &1251470133
 GameObject:
   m_ObjectHideFlags: 0
@@ -4097,6 +4112,7 @@ GameObject:
   - component: {fileID: 1882231458}
   - component: {fileID: 1882231460}
   - component: {fileID: 1882231459}
+  - component: {fileID: 1882231461}
   m_Layer: 0
   m_Name: Bird
   m_TagString: Untagged
@@ -4188,6 +4204,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1882231461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1882231457}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc2b6f8b2493cba48be131fcab7c4f35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1907167256
 GameObject:
   m_ObjectHideFlags: 0
@@ -4277,6 +4305,7 @@ GameObject:
   - component: {fileID: 1979203500}
   - component: {fileID: 1979203501}
   - component: {fileID: 1979203502}
+  - component: {fileID: 1979203503}
   m_Layer: 0
   m_Name: Bird w/ Cookie
   m_TagString: Untagged
@@ -4369,6 +4398,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1979203503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1979203499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc2b6f8b2493cba48be131fcab7c4f35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2018909240
 GameObject:
   m_ObjectHideFlags: 0
