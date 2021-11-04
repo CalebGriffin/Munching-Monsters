@@ -7,6 +7,8 @@ public class Monster : MonoBehaviour
     [SerializeField]
     private Stat hunger;
 
+    public GameObject MonsterSpawner;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -15,7 +17,8 @@ public class Monster : MonoBehaviour
     void Awake()
     {
         hunger.Initialize();
-        hunger.MaxVal = 10;
+        hunger.CurrentVal = 0;
+        hunger.MaxVal = 10 * 1;
     }
 
     // Update is called once per frame
@@ -30,5 +33,18 @@ public class Monster : MonoBehaviour
         {
             hunger.CurrentVal += 1;
         } 
+
+        if (hunger.CurrentVal == hunger.MaxVal)
+        {
+            StartCoroutine(Fed());
+        }
+    }
+
+    private IEnumerator Fed()
+    {
+        yield return new WaitForSeconds(0.2f);
+
+        hunger.CurrentVal = 0;
+        MonsterSpawner.GetComponent<MonsterSpawner>().SpawnMonster();
     }
 }

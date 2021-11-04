@@ -11,4 +11,6 @@ public class gVar
     public static int robotArmy;
 
     public static int robotLvl;
+
+    public static int monsterLvl;
 }
