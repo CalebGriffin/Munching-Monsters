@@ -16,6 +16,9 @@ public class BarScript : MonoBehaviour
     private Slider content;
 
     [SerializeField]
+    private GameObject contentFill;
+
+    [SerializeField]
     private Text valueText;
 
     private float timeElapsed = 0;
@@ -36,9 +39,9 @@ public class BarScript : MonoBehaviour
         set
         {
             // This will take the text that is supplied and remove anything before the colon and update the value
-            string[] tmp = valueText.text.Split(':');
+            //string[] tmp = valueText.text.Split(':');
             fillAmount = value;
-            valueText.text = tmp[0] + ": " + fillAmount.ToString();
+            //valueText.text = tmp[0] + ": " + fillAmount.ToString();
         }
     }
 
@@ -46,24 +49,40 @@ public class BarScript : MonoBehaviour
     void Update()
     {
         HandleBar();
+
+        if (content.value < 0.001)
+        {
+            contentFill.GetComponent<Image>().enabled = false;
+        }
+        else
+        {
+            contentFill.GetComponent<Image>().enabled = true;
+        }
     }
 
     // HandleBar is run once every frame because it is called by Update
     // It will update the value of the UI bar based on the code
-    private void HandleBar()
+    private void HandleBarWithLerp()
     {
+        float rate = 1.0f;
+
         // If the current value of the bar is not the same as the UI bar then update it by lerping the value
         if (fillAmount != content.value)
         {
             if (timeElapsed < lerpSpeed)
             {
-                content.value = Mathf.Lerp(content.value, fillAmount, timeElapsed / lerpSpeed);
-                timeElapsed += Time.deltaTime;
+                content.value = Mathf.Lerp(content.value, fillAmount, timeElapsed / 2);
+                timeElapsed += rate * Time.deltaTime;
             }
             else
             {
                 timeElapsed = 0;
             }
         }
+    }
+
+    private void HandleBar()
+    {
+        content.value = fillAmount;
     }
 }

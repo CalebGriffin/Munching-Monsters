@@ -5,4 +5,10 @@ using UnityEngine;
 public class gVar 
 {
     public static int cookieSize;
+
+    public static int cookieFlavours;
+
+    public static int robotArmy;
+
+    public static int robotLvl;
 }
