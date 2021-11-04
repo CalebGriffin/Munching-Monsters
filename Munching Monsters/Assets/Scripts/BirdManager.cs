@@ -30,7 +30,7 @@ public class BirdManager : MonoBehaviour
 
         yield return new WaitForSeconds(waitTime);
 
-        if (birdRand == 10)
+        if (birdRand == 1)
         {
             if (birdWithCookie.activeSelf == false)
             {
