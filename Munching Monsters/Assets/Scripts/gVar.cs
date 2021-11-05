@@ -4,25 +4,25 @@ using UnityEngine;
 
 public class gVar 
 {
-    public static int cookieSize;
+    public static float cookieSize;
 
-    public static int cookieFlavours;
+    public static float cookieFlavours;
 
-    public static int robotArmy;
+    public static float robotArmy;
 
-    public static int robotLvl;
+    public static float robotLvl;
 
     public static int monsterLvl = 1;
 
-    public static int gold;
+    public static float gold;
 
     public static int monstersSpawned;
 
-    public static int cookieCost;
+    public static float cookieCost;
 
-    public static int flavourCost;
+    public static float flavourCost;
 
-    public static int robotCost;
+    public static float robotCost;
 
-    public static int upgradeCost;
+    public static float upgradeCost;
 }

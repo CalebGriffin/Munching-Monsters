@@ -14,17 +14,17 @@ public class Monster : MonoBehaviour
     {
     }
 
-    void Awake()
+    void OnEnable()
     {
         hunger.Initialize();
         hunger.CurrentVal = 0;
-        Debug.Log(gVar.monsterLvl.ToString());
         hunger.MaxVal = 10 * gVar.monsterLvl;
     }
 
     // Update is called once per frame
     void Update()
     {
+        // REMEMBER TO REMOVE
         if (Input.GetKeyDown(KeyCode.A))
         {
             hunger.CurrentVal -= 1;
@@ -46,7 +46,7 @@ public class Monster : MonoBehaviour
         yield return new WaitForSeconds(0.2f);
 
         gVar.gold += 10 * gVar.monsterLvl;
-        PlayerPrefs.SetInt("gold", gVar.gold);
+        PlayerPrefs.SetFloat("gold", gVar.gold);
         hunger.CurrentVal = 0;
         MonsterSpawner.GetComponent<MonsterSpawner>().SpawnMonster();
     }

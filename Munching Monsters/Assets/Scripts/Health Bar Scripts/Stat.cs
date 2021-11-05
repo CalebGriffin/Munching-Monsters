@@ -32,10 +32,10 @@ public class Stat
 
     // Creates a variable to store the current value of the bar
     [SerializeField]
-    private int currentVal;
+    private float currentVal;
 
     // This is a public property relating to the current value of the bar and can be accessed by other scripts
-    public int CurrentVal
+    public float CurrentVal
     {
         get
         {

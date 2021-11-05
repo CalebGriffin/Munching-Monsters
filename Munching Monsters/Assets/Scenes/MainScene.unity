@@ -955,7 +955,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 363614030}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2135742813}
+        m_MethodName: MoreRobotsButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
 --- !u!114 &363614030
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2559,7 +2570,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1108930960}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2135742813}
+        m_MethodName: UpgradeRobotsButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
 --- !u!114 &1108930960
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2678,7 +2700,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1114066046}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2135742813}
+        m_MethodName: CookieUpgradeButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
 --- !u!114 &1114066046
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3621,7 +3654,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1304240789}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2135742813}
+        m_MethodName: FlavourUpgradeButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
 --- !u!114 &1304240789
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5470,6 +5514,10 @@ MonoBehaviour:
   coinText: {fileID: 215949301}
   coinText1: {fileID: 715001246}
   coinText2: {fileID: 1434283537}
+  cookieUpgradeText: {fileID: 1008970755}
+  flavourUpgradeText: {fileID: 1254317290}
+  moreRobotsText: {fileID: 1020371101}
+  upgradeRobotsText: {fileID: 1251470135}
 --- !u!4 &2135742814
 Transform:
   m_ObjectHideFlags: 0

@@ -60,11 +60,13 @@ public class MonsterSpawner : MonoBehaviour
 
         gVar.monstersSpawned += 1;
         PlayerPrefs.SetInt("monstersSpawned", gVar.monstersSpawned);
+        Debug.Log("Monsters Spawned: " + gVar.monstersSpawned.ToString());
 
-        if (gVar.monstersSpawned >= 20)
+        if (gVar.monstersSpawned >= 5)
         {
-            gVar.monsterLvl += 1;
+            gVar.monsterLvl += 2;
             PlayerPrefs.SetInt("monsterLvl", gVar.monsterLvl);
+            Debug.Log("Monster Level: " + gVar.monsterLvl.ToString());
 
             gVar.monstersSpawned = 0;
             PlayerPrefs.SetInt("monstersSpawned", gVar.monstersSpawned);

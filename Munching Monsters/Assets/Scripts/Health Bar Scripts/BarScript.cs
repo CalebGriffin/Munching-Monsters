@@ -7,7 +7,7 @@ public class BarScript : MonoBehaviour
 {
     // These are the variables that will be used within this script
     [SerializeField]
-    private int fillAmount;
+    private float fillAmount;
 
     [SerializeField]
     private float lerpSpeed;
@@ -34,7 +34,7 @@ public class BarScript : MonoBehaviour
     }
 
     // This is a public property for the value of the bar, it can be accessed by other scripts
-    public int Value
+    public float Value
     {
         set
         {

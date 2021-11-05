@@ -23,6 +23,18 @@ public class UIController : MonoBehaviour
     [SerializeField]
     private Text coinText2;
 
+    [SerializeField]
+    private Text cookieUpgradeText;
+
+    [SerializeField]
+    private Text flavourUpgradeText;
+
+    [SerializeField]
+    private Text moreRobotsText;
+
+    [SerializeField]
+    private Text upgradeRobotsText;
+
     void Start()
     {
         
@@ -65,13 +77,13 @@ public class UIController : MonoBehaviour
         if (gVar.gold >= gVar.cookieCost)
         {
             gVar.gold -= gVar.cookieCost;
-            PlayerPrefs.SetInt("gold", gVar.gold);
+            PlayerPrefs.SetFloat("gold", gVar.gold);
 
             gVar.cookieSize += 1;
-            PlayerPrefs.SetInt("cookieSize", gVar.cookieSize);
+            PlayerPrefs.SetFloat("cookieSize", gVar.cookieSize);
 
             gVar.cookieCost = 10 * gVar.cookieSize;
-            PlayerPrefs.SetInt("cookieCost", gVar.cookieCost);
+            PlayerPrefs.SetFloat("cookieCost", gVar.cookieCost);
         }
     }
 
@@ -80,25 +92,44 @@ public class UIController : MonoBehaviour
         if (gVar.gold >= gVar.flavourCost)
         {
             gVar.gold -= gVar.flavourCost;
-            PlayerPrefs.SetInt("gold", gVar.gold);
+            PlayerPrefs.SetFloat("gold", gVar.gold);
 
-            gVar.cookieFlavours += 1;
-            PlayerPrefs.SetInt("cookieFlavours", gVar.cookieFlavours);
+            gVar.cookieFlavours += 0.5f;
+            PlayerPrefs.SetFloat("cookieFlavours", gVar.cookieFlavours);
 
             gVar.flavourCost = 20 * gVar.cookieFlavours;
-            PlayerPrefs.SetInt("flavourCost", gVar.flavourCost);
+            PlayerPrefs.SetFloat("flavourCost", gVar.flavourCost);
         }
-
     }
 
     public void MoreRobotsButton()
     {
+        if (gVar.gold >= gVar.robotCost)
+        {
+            gVar.gold -= gVar.robotCost;
+            PlayerPrefs.SetFloat("gold", gVar.gold);
 
+            gVar.robotArmy += 1;
+            PlayerPrefs.SetFloat("robotArmy", gVar.robotArmy);
+
+            gVar.robotCost = 10 * gVar.robotArmy;
+            PlayerPrefs.SetFloat("robotCost", gVar.robotCost);
+        }
     }
 
     public void UpgradeRobotsButton()
     {
+        if (gVar.gold >= gVar.upgradeCost)
+        {
+            gVar.gold -= gVar.upgradeCost;
+            PlayerPrefs.SetFloat("gold", gVar.gold);
 
+            gVar.robotLvl += 0.5f;
+            PlayerPrefs.SetFloat("robotLvl", gVar.robotLvl);
+
+            gVar.upgradeCost = 20 * gVar.robotLvl;
+            PlayerPrefs.SetFloat("upgradeCost", gVar.upgradeCost);
+        }
     }
 
     public void AchievementButton()
@@ -108,8 +139,8 @@ public class UIController : MonoBehaviour
     
     public void BirdButton()
     {
-        gVar.gold += 20 * gVar.cookieSize;
-        PlayerPrefs.SetInt("gold", gVar.gold);
+        gVar.gold += 30 * gVar.cookieSize;
+        PlayerPrefs.SetFloat("gold", gVar.gold);
     }
 
     public void CoinTextUpdate()
@@ -121,6 +152,9 @@ public class UIController : MonoBehaviour
 
     public void CostTextUpdate()
     {
-
+        cookieUpgradeText.text = gVar.cookieCost.ToString("N0");
+        flavourUpgradeText.text = gVar.flavourCost.ToString("N0");
+        moreRobotsText.text = gVar.robotCost.ToString("N0");
+        upgradeRobotsText.text = gVar.upgradeCost.ToString("N0");
     }
 }
