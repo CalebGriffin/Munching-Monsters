@@ -6,6 +6,12 @@ public class MonsterSpawner : MonoBehaviour
 {
     private GameObject[] monsters;
 
+    private int previousMonster = -1;
+
+    private bool monsterFound = false;
+
+    private int monsterToBeSpawned = -1;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -15,13 +21,19 @@ public class MonsterSpawner : MonoBehaviour
             monster.SetActive(false);
         }
 
-        SpawnMonster();
+        StartCoroutine(Wait());
     }
 
     // Update is called once per frame
     void Update()
     {
         
+    }
+
+    public IEnumerator Wait()
+    {
+        yield return new WaitForSeconds(0.1f);
+        SpawnMonster();
     }
 
     public void SpawnMonster()
@@ -31,8 +43,31 @@ public class MonsterSpawner : MonoBehaviour
             monster.SetActive(false);
         }
 
-        int monsterToBeSpawned = Random.Range(1, monsters.Length - 1);
+        while (monsterFound == false)
+        {
+            monsterToBeSpawned = Random.Range(0, monsters.Length - 1);
+
+            if (monsterToBeSpawned != previousMonster)
+            {
+                previousMonster = monsterToBeSpawned;
+                monsterFound = true;
+            }
+        }
+
+        monsterFound = false;
 
         monsters[monsterToBeSpawned].SetActive(true);
+
+        gVar.monstersSpawned += 1;
+        PlayerPrefs.SetInt("monstersSpawned", gVar.monstersSpawned);
+
+        if (gVar.monstersSpawned >= 20)
+        {
+            gVar.monsterLvl += 1;
+            PlayerPrefs.SetInt("monsterLvl", gVar.monsterLvl);
+
+            gVar.monstersSpawned = 0;
+            PlayerPrefs.SetInt("monstersSpawned", gVar.monstersSpawned);
+        }
     }
 }

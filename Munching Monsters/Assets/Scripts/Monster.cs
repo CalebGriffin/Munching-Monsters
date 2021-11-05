@@ -18,7 +18,8 @@ public class Monster : MonoBehaviour
     {
         hunger.Initialize();
         hunger.CurrentVal = 0;
-        hunger.MaxVal = 10 * 1;
+        Debug.Log(gVar.monsterLvl.ToString());
+        hunger.MaxVal = 10 * gVar.monsterLvl;
     }
 
     // Update is called once per frame
@@ -44,7 +45,14 @@ public class Monster : MonoBehaviour
     {
         yield return new WaitForSeconds(0.2f);
 
+        gVar.gold += 10 * gVar.monsterLvl;
+        PlayerPrefs.SetInt("gold", gVar.gold);
         hunger.CurrentVal = 0;
         MonsterSpawner.GetComponent<MonsterSpawner>().SpawnMonster();
+    }
+
+    public void Clicked()
+    {
+        hunger.CurrentVal += gVar.cookieSize * gVar.cookieFlavours;
     }
 }

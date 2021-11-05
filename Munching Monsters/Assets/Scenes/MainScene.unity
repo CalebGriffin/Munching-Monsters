@@ -5148,6 +5148,9 @@ MonoBehaviour:
   coin: {fileID: 839227673}
   cookieCanvas: {fileID: 256204910}
   robotCanvas: {fileID: 1029651798}
+  coinText: {fileID: 215949301}
+  coinText1: {fileID: 715001246}
+  coinText2: {fileID: 1434283537}
 --- !u!4 &2135742814
 Transform:
   m_ObjectHideFlags: 0
