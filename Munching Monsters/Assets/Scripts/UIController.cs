@@ -32,6 +32,7 @@ public class UIController : MonoBehaviour
     void Update()
     {
        CoinTextUpdate(); 
+       CostTextUpdate();
     }
 
     public void CookieButton()
@@ -61,11 +62,32 @@ public class UIController : MonoBehaviour
 
     public void CookieUpgradeButton()
     {
+        if (gVar.gold >= gVar.cookieCost)
+        {
+            gVar.gold -= gVar.cookieCost;
+            PlayerPrefs.SetInt("gold", gVar.gold);
 
+            gVar.cookieSize += 1;
+            PlayerPrefs.SetInt("cookieSize", gVar.cookieSize);
+
+            gVar.cookieCost = 10 * gVar.cookieSize;
+            PlayerPrefs.SetInt("cookieCost", gVar.cookieCost);
+        }
     }
 
     public void FlavourUpgradeButton()
     {
+        if (gVar.gold >= gVar.flavourCost)
+        {
+            gVar.gold -= gVar.flavourCost;
+            PlayerPrefs.SetInt("gold", gVar.gold);
+
+            gVar.cookieFlavours += 1;
+            PlayerPrefs.SetInt("cookieFlavours", gVar.cookieFlavours);
+
+            gVar.flavourCost = 20 * gVar.cookieFlavours;
+            PlayerPrefs.SetInt("flavourCost", gVar.flavourCost);
+        }
 
     }
 
@@ -92,8 +114,13 @@ public class UIController : MonoBehaviour
 
     public void CoinTextUpdate()
     {
-        coinText.text = gVar.gold.ToString();
-        coinText1.text = gVar.gold.ToString();
-        coinText2.text = gVar.gold.ToString();
+        coinText.text = gVar.gold.ToString("N0");
+        coinText1.text = gVar.gold.ToString("N0");
+        coinText2.text = gVar.gold.ToString("N0");
+    }
+
+    public void CostTextUpdate()
+    {
+
     }
 }
