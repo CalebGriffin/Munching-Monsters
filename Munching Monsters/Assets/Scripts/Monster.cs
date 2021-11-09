@@ -55,4 +55,9 @@ public class Monster : MonoBehaviour
     {
         hunger.CurrentVal += gVar.cookieSize * gVar.cookieFlavours;
     }
+
+    public void RobotClicked()
+    {
+        hunger.CurrentVal += gVar.robotArmy * gVar.robotLvl;
+    }
 }
