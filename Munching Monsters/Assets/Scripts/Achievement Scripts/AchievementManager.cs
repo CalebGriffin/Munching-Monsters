@@ -39,14 +39,11 @@ public class AchievementManager : MonoBehaviour
     void Start()
     {
         // REMEMBER TO REMOVE
-        PlayerPrefs.DeleteAll();
+        //PlayerPrefs.DeleteAll();
 
         CreateAchievement("General", "Press B", "Press B to unlock this achievement", 5);
         CreateAchievement("General", "Press N", "Press N to unlock this achievement", 5);
         CreateAchievement("General", "Press All Keys", "Unlock 'Press B' and 'Press N' to unlock this achievement", 5, new string[]{"Press B", "Press N"});
-
-        otherCategory = GameObject.Find("Other");
-        otherCategory.SetActive(false);
 
         achievementMenu.SetActive(false);
     }

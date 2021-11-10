@@ -15,6 +15,9 @@ public class UIController : MonoBehaviour
     private GameObject robotCanvas;
 
     [SerializeField]
+    private GameObject achievementCanvas;
+
+    [SerializeField]
     private Text coinText;
 
     [SerializeField]
@@ -49,7 +52,7 @@ public class UIController : MonoBehaviour
 
     public void CookieButton()
     {
-        if (robotCanvas.activeSelf == false)
+        if (robotCanvas.activeSelf == false && achievementCanvas.activeSelf == false)
         {
             coin.SetActive(!coin.activeSelf);
             cookieCanvas.SetActive(!cookieCanvas.activeSelf);
@@ -58,7 +61,7 @@ public class UIController : MonoBehaviour
 
     public void RobotButton()
     {
-        if (cookieCanvas.activeSelf == false)
+        if (cookieCanvas.activeSelf == false && achievementCanvas.activeSelf == false)
         {
             coin.SetActive(!coin.activeSelf);
             robotCanvas.SetActive(!robotCanvas.activeSelf);
@@ -134,7 +137,11 @@ public class UIController : MonoBehaviour
 
     public void AchievementButton()
     {
-
+        if (robotCanvas.activeSelf == false && cookieCanvas.activeSelf == false)
+        {
+            coin.SetActive(!coin.activeSelf);
+            achievementCanvas.SetActive(!achievementCanvas.activeSelf);
+        }
     }
     
     public void BirdButton()
