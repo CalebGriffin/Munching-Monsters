@@ -97,7 +97,7 @@ public class UIController : MonoBehaviour
             gVar.gold -= gVar.flavourCost;
             PlayerPrefs.SetFloat("gold", gVar.gold);
 
-            gVar.cookieFlavours += 0.5f;
+            gVar.cookieFlavours += 0.2f;
             PlayerPrefs.SetFloat("cookieFlavours", gVar.cookieFlavours);
 
             gVar.flavourCost = 20 * gVar.cookieFlavours;
@@ -127,7 +127,7 @@ public class UIController : MonoBehaviour
             gVar.gold -= gVar.upgradeCost;
             PlayerPrefs.SetFloat("gold", gVar.gold);
 
-            gVar.robotLvl += 0.5f;
+            gVar.robotLvl += 0.2f;
             PlayerPrefs.SetFloat("robotLvl", gVar.robotLvl);
 
             gVar.upgradeCost = 20 * gVar.robotLvl;

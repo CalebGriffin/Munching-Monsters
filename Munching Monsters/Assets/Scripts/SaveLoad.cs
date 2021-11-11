@@ -12,7 +12,7 @@ public class SaveLoad : MonoBehaviour
 
        gVar.cookieSize = PlayerPrefs.GetFloat("cookieSize", 1); 
        gVar.cookieFlavours = PlayerPrefs.GetFloat("cookieFlavours", 1); 
-       gVar.robotArmy = PlayerPrefs.GetFloat("robotArmy", 0); 
+       gVar.robotArmy = PlayerPrefs.GetFloat("robotArmy", 1); 
        gVar.robotLvl = PlayerPrefs.GetInt("robotLvl", 1); 
        gVar.monsterLvl = PlayerPrefs.GetInt("monsterLvl", 1); 
        gVar.gold = PlayerPrefs.GetFloat("gold", 0);
@@ -21,6 +21,7 @@ public class SaveLoad : MonoBehaviour
        gVar.flavourCost = PlayerPrefs.GetFloat("flavourCost", 20 * gVar.cookieFlavours);
        gVar.robotCost = PlayerPrefs.GetFloat("robotCost", 10 * gVar.robotArmy);
        gVar.upgradeCost = PlayerPrefs.GetFloat("upgradeCost", 20 * gVar.robotLvl);
+       gVar.totalMonstersSpawned = PlayerPrefs.GetInt("totalMonstersSpawned", 0);
     }
 
     // Update is called once per frame

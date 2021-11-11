@@ -6,6 +6,8 @@ public class MonsterSpawner : MonoBehaviour
 {
     private GameObject[] monsters;
 
+    [SerializeField] private GameObject achievementManager;
+
     private int previousMonster = -1;
 
     private bool monsterFound = false;
@@ -45,7 +47,7 @@ public class MonsterSpawner : MonoBehaviour
 
         while (monsterFound == false)
         {
-            monsterToBeSpawned = Random.Range(0, monsters.Length - 1);
+            monsterToBeSpawned = Random.Range(0, monsters.Length);
 
             if (monsterToBeSpawned != previousMonster)
             {
@@ -59,7 +61,10 @@ public class MonsterSpawner : MonoBehaviour
         monsters[monsterToBeSpawned].SetActive(true);
 
         gVar.monstersSpawned += 1;
+        gVar.totalMonstersSpawned += 1;
         PlayerPrefs.SetInt("monstersSpawned", gVar.monstersSpawned);
+        PlayerPrefs.SetInt("totalMonstersSpawned", gVar.totalMonstersSpawned);
+        AchievementChecker();
         Debug.Log("Monsters Spawned: " + gVar.monstersSpawned.ToString());
 
         if (gVar.monstersSpawned >= 5)
@@ -70,6 +75,39 @@ public class MonsterSpawner : MonoBehaviour
 
             gVar.monstersSpawned = 0;
             PlayerPrefs.SetInt("monstersSpawned", gVar.monstersSpawned);
+        }
+    }
+
+    public void AchievementChecker()
+    {
+        switch (gVar.totalMonstersSpawned)
+        {
+            case 10:
+                achievementManager.GetComponent<AchievementManager>().EarnAchievement("Beginner Feeder");
+                break;
+
+            case 20:
+                achievementManager.GetComponent<AchievementManager>().EarnAchievement("Amateur Feeder");
+                break;
+
+            case 50:
+                achievementManager.GetComponent<AchievementManager>().EarnAchievement("Intermediate Feeder");
+                break;
+
+            case 100:
+                achievementManager.GetComponent<AchievementManager>().EarnAchievement("Professional Feeder");
+                break;
+
+            case 200:
+                achievementManager.GetComponent<AchievementManager>().EarnAchievement("Expert Feeder");
+                break;
+
+            case 500:
+                achievementManager.GetComponent<AchievementManager>().EarnAchievement("Master Feeder");
+                break;
+
+            default:
+                break;
         }
     }
 }

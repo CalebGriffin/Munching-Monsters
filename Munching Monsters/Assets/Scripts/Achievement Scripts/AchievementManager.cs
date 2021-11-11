@@ -40,10 +40,8 @@ public class AchievementManager : MonoBehaviour
     {
         // REMEMBER TO REMOVE
         //PlayerPrefs.DeleteAll();
-
-        CreateAchievement("General", "Press B", "Press B to unlock this achievement", 5);
-        CreateAchievement("General", "Press N", "Press N to unlock this achievement", 5);
-        CreateAchievement("General", "Press All Keys", "Unlock 'Press B' and 'Press N' to unlock this achievement", 5, new string[]{"Press B", "Press N"});
+        
+        AchievementCreator();
 
         achievementMenu.SetActive(false);
     }
@@ -51,20 +49,6 @@ public class AchievementManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.A))
-        {
-            achievementMenu.SetActive(!achievementMenu.activeSelf);
-        }
-
-        if (Input.GetKeyDown(KeyCode.B))
-        {
-            EarnAchievement("Press B");
-        }
-
-        if (Input.GetKeyDown(KeyCode.N))
-        {
-            EarnAchievement("Press N");
-        }
     }
 
     public void EarnAchievement(string title)
@@ -150,5 +134,16 @@ public class AchievementManager : MonoBehaviour
         }
 
         Destroy(achievement);
+    }
+
+    public void AchievementCreator()
+    {
+        CreateAchievement("General", "Beginner Feeder", "Feed 10 monsters to unlock this achievement", 5);
+        CreateAchievement("General", "Amateur Feeder", "Feed 20 monsters to unlock this achievement", 10);
+        CreateAchievement("General", "Intermediate Feeder", "Feed 50 monsters to unlock this achievement", 25);
+        CreateAchievement("General", "Professional Feeder", "Feed 100 monsters to unlock this achievement", 50);
+        CreateAchievement("General", "Expert Feeder", "Feed 200 monsters to unlock this achievement", 100);
+        CreateAchievement("General", "Master Feeder", "Feed 500 monsters to unlock this achievement", 250);
+        CreateAchievement("General", "All Fed Up Now", "Unlock all 'Feeder' achievements to unlock this achievement", 350, new string[]{"Beginner Feeder", "Amateur Feeder", "Intermediate Feeder", "Professional Feeder", "Expert Feeder", "Master Feeder"});
     }
 }

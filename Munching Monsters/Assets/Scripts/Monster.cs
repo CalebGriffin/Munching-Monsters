@@ -58,6 +58,6 @@ public class Monster : MonoBehaviour
 
     public void RobotClicked()
     {
-        hunger.CurrentVal += gVar.robotArmy * gVar.robotLvl;
+        hunger.CurrentVal += (gVar.robotArmy - 1) * gVar.robotLvl;
     }
 }

@@ -25,4 +25,6 @@ public class gVar
     public static float robotCost;
 
     public static float upgradeCost;
+
+    public static int totalMonstersSpawned;
 }
