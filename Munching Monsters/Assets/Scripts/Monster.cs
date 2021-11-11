@@ -43,7 +43,7 @@ public class Monster : MonoBehaviour
 
     private IEnumerator Fed()
     {
-        yield return new WaitForSeconds(0.2f);
+        yield return new WaitForSeconds(0.1f);
 
         gVar.gold += 10 * gVar.monsterLvl;
         PlayerPrefs.SetFloat("gold", gVar.gold);
