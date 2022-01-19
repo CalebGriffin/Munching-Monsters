@@ -203,6 +203,7 @@ public class UIController : MonoBehaviour
         coinText2.text = gVar.gold.ToString("N0");
     }
 
+    // This function will update the UI to show the different costs of the upgrades
     public void CostTextUpdate()
     {
         // Set the text of each Text object to the cost variable converted to a string with a format that includes commas and 2 decimal places
